@@ -26,7 +26,7 @@ func main() {
 		}
 		count++
 		// Print the number of attempts every 1000 times.
-		if count%1000 == 0 {
+		if count%20000 == 0 {
 			fmt.Println(count)
 		}
 	}
